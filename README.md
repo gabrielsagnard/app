@@ -1,4 +1,6 @@
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/apaganobeleno/app)
+
 # Welcome to Buffalo!
 
 Thank you for chosing Buffalo for your web development needs.
@@ -34,3 +36,5 @@ We recommend you heading over to [http://gobuffalo.io](http://gobuffalo.io) and 
 Good luck!
 
 [Powered by Buffalo](http://gobuffalo.io)
+
+
