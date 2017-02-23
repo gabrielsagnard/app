@@ -1,7 +1,7 @@
 {
   "name": "Buffalo Sample",
   "description": "A sample buffalo application",
-  "repository": "https://github.com/apaganobeleno/app",
+  "repository": "https://github.com/apaganobeleno/app.git",
   "keywords": ["golang", "buffalo", "gobuffalo"],
   "buildpacks": ["https://github.com/apaganobeleno/heroku-buildpack-buffalo"],
   "env":{
