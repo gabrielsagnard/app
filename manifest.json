@@ -1,0 +1,22 @@
+{
+    "dependencies": {
+        "github.com/gobuffalo/buffalo": {
+            "revision": "063be75b06a387c813b182a32efcf3e97e645453"
+        },
+        "github.com/gobuffalo/envy": {
+            "branch": "master"
+        },
+        "github.com/gobuffalo/packr": {
+            "branch": "master"
+        },
+        "github.com/gobuffalo/suite": {
+            "branch": "master"
+        },
+        "github.com/markbates/grift": {
+            "branch": "master"
+        },
+        "github.com/markbates/pop": {
+            "branch": "master"
+        }
+    }
+}

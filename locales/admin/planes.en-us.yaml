@@ -1,0 +1,6 @@
+- id: "admin/planes.created.success"
+  translation: "Admin/plane was successfully created."
+- id: "admin/planes.updated.success"
+  translation: "Admin/plane was successfully updated."
+- id: "admin/planes.destroyed.success"
+  translation: "Admin/plane was successfully destroyed."
