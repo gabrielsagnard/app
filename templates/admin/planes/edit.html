@@ -1,6 +1,0 @@
-<h1>Edit Admin/plane</h1>
-
-<%= form_for(admin/plane, {action: admin/planePath({ admin/plane_id: admin/plane.ID }), method: "PUT"}) { %>
-  <%= partial("admin/planes/form.html") %>
-  <a href="<%= admin/planePath({ admin/plane_id: admin/plane.ID }) %>" class="btn btn-warning" data-confirm="Are you sure?">Cancel</a>
-<% } %>

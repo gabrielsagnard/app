@@ -1,0 +1,6 @@
+- id: "others.created.success"
+  translation: "AdminOther was successfully created."
+- id: "others.updated.success"
+  translation: "AdminOther was successfully updated."
+- id: "others.destroyed.success"
+  translation: "AdminOther was successfully destroyed."
