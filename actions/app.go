@@ -16,6 +16,8 @@ import (
 // application is being run. Default is "development".
 var ENV = envy.Get("GO_ENV", "development")
 var app *buffalo.App
+var assetsBox packr.Box
+
 var T *i18n.Translator
 
 // App is where all routes and middleware for buffalo
@@ -51,7 +53,8 @@ func App() *buffalo.App {
 
 		app.GET("/", HomeHandler)
 
-		app.ServeFiles("/assets", packr.NewBox("../public/assets"))
+		assetsBox = packr.NewBox("../public/assets")
+		app.ServeFiles("/assets", assetsBox)
 	}
 
 	return app
